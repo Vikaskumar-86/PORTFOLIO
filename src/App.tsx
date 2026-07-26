@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route, useOutletContext } from 'react-router-dom';
+import { HashRouter, Routes, Route} from "react-router-dom";
 import { RootLayout } from './layouts/RootLayout';
 import { HomePage } from './pages/HomePage';
 import { AboutPage } from './pages/AboutPage';
@@ -18,7 +18,7 @@ function HomeRouteWrapper() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<RootLayout />}>
           <Route index element={<HomeRouteWrapper />} />
@@ -31,6 +31,6 @@ export default function App() {
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
