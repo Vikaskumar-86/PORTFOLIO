@@ -3,10 +3,9 @@
 Welcome to my personal portfolio website. This portfolio showcases my skills, projects, certifications, and experience as a Computer Science Engineering student.
 
 ## 🌐 Live Demo
-🔗 https://github.com/Vikaskumar-86/PORTFOLIO
+🔗 ## 🌐 Portfolio
 
-## 📂 GitHub Repository
-🔗 https://github.com/Vikaskumar-86/PORTFOLIO
+🔗 **[Vikas Kumar | Portfolio](https://vikaskumar-86.github.io/PORTFOLIO/)**
 
 ## 🛠️ Technologies Used
 
