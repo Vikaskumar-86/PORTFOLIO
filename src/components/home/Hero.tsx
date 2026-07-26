@@ -171,10 +171,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
                   <div className="p-2 rounded-xl bg-emerald-100 dark:bg-emerald-900/60 text-emerald-600 dark:text-emerald-400">
                     <Code className="w-4 h-4" />
                   </div>
-                  <div>
-                    <span className="text-[10px] uppercase font-bold text-slate-400 block">Code Stack</span>
-                    <span className="text-xs font-extrabold text-slate-900 dark:text-white">React, TS, Python</span>
-                  </div>
                 </div>
               </div>
             </motion.div>
