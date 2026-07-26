@@ -165,13 +165,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
                     <span className="text-xs font-extrabold text-slate-900 dark:text-white">CGPA: 8.02 / 10.0</span>
                   </div>
                 </div>
-
-                {/* Floating Achievement Badge 2 */}
-                <div className="absolute -top-2 -right-2 sm:top-2 sm:-right-4 px-3.5 py-2 rounded-2xl bg-white/90 dark:bg-slate-800/90 backdrop-blur-md border border-slate-200 dark:border-slate-700 shadow-lg text-left flex items-center gap-2.5">
-                  <div className="p-2 rounded-xl bg-emerald-100 dark:bg-emerald-900/60 text-emerald-600 dark:text-emerald-400">
-                    <Code className="w-4 h-4" />
-                  </div>
-                </div>
               </div>
             </motion.div>
           </div>
