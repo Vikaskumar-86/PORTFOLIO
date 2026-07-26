@@ -1,20 +1,44 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🚀 Vikas Kumar Portfolio
 
-# Run and deploy your AI Studio app
+Welcome to my personal portfolio website. This portfolio showcases my skills, projects, certifications, and experience as a Computer Science Engineering student.
 
-This contains everything you need to run your app locally.
+## 🌐 Live Demo
+🔗 https://github.com/Vikaskumar-86/PORTFOLIO
 
-View your app in AI Studio: https://ai.studio/apps/33bc8af2-ee04-42f6-b3f4-7f1df63195f9
+## 📂 GitHub Repository
+🔗 https://github.com/Vikaskumar-86/PORTFOLIO
 
-## Run Locally
+## 🛠️ Technologies Used
 
-**Prerequisites:**  Node.js
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Router DOM
+- EmailJS
+- React Icons
 
+## 📂 Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- 🏠 Home Section
+- 👨‍💻 About Me
+- 🛠️ Skills
+- 📁 Projects
+- 📜 Certifications
+- 📄 Resume Download
+- 🌙 Light/Dark Mode
+- 📬 Contact Form
+- 📱 Fully Responsive Design
+
+## 🤝 Connect With Me
+
+- **GitHub:** https://github.com/Vikaskumar-86
+- **LinkedIn:** https://www.linkedin.com/in/vikas-kumar-840b363a8?utm_source=share_via&utm_content=profile&utm_medium=member_android
+- **Email:** vikaskumar868903@gmail.com
+
+## 👨‍💻 Author
+
+**Vikas Kumar**
+
+⭐ If you like this project, please give it a **Star** on GitHub!
