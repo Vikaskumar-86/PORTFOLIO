@@ -187,7 +187,7 @@ export const CERTIFICATES_DATA: Certificate[] = [
   },
   {
     id: 'cert-4',
-    title: 'Database Foundations & SQL Certification',
+    title: 'AI Foundations Associate',
     issuer: 'Oracle / Coursera',
     date: '2024',
     credentialId: 'ORACLE-SQL-301928',

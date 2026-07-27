@@ -41,7 +41,7 @@ ACADEMIC HIGHLIGHTS & CERTIFICATIONS:
 - Python for Data Science & AI (IBM)
 - Full Stack Web Development with React (Meta)
 - Problem Solving (Intermediate) (HackerRank)
-- Database Foundations & SQL (Oracle)
+- AI Foundations Associate (Oracle)
 
 ====================================================================
 `;
