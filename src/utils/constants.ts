@@ -192,8 +192,8 @@ export const CERTIFICATES_DATA: Certificate[] = [
     date: '2024',
     credentialId: 'ORACLE-SQL-301928',
     skills: ['SQL', 'Relational DB', 'Query Optimization', 'PostgreSQL'],
-    verificationUrl:'oracleCertificate',
-    image: 'https://picsum.photos/seed/cert-sql/800/600'
+    verificationUrl:oracleCertificate,
+    image: oracleCertificate
   }
 ];
 
