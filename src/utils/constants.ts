@@ -5,6 +5,7 @@ import avatarImg from "../assets/images/5067e7dc-e0b2-4cef-b0a2-def73a40169a.jpe
 import aiJobImg from '../assets/images/ai_job_finder_1784998812507.jpg';
 import intrusionImg from '../assets/images/intrusion_alarm_1784998822478.jpg';
 import studentMgmtImg from '../assets/images/student_management_1784998833070.jpg';
+import oracleCertificate from "../assets/images/oracle-certificate.jpeg";
 
 export const PERSONAL_INFO: PersonalInfo = {
   name: 'Vikas Kumar',
@@ -191,7 +192,7 @@ export const CERTIFICATES_DATA: Certificate[] = [
     date: '2024',
     credentialId: 'ORACLE-SQL-301928',
     skills: ['SQL', 'Relational DB', 'Query Optimization', 'PostgreSQL'],
-    verificationUrl: 'https://coursera.org/verify/ORACLE-SQL-301928',
+    verificationUrl:'oracleCertificate',
     image: 'https://picsum.photos/seed/cert-sql/800/600'
   }
 ];
