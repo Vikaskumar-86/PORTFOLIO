@@ -15,7 +15,7 @@ export const CertificatesSection: React.FC = () => {
         <SectionHeading
           badge="Verified Credentials"
           title="Certifications & Badges"
-          subtitle="Industry-recognized certifications and professional credentials in Python,DSA,C++, and Algorithmic Problem Solving."
+          subtitle="Industry-recognized certifications and professional credentials in Python,DSA,C++,SQL  and Algorithmic Problem Solving."
         />
 
         {/* Certificate Gallery Grid */}
