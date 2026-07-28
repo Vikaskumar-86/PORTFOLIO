@@ -1,3 +1,4 @@
+import emailjs from "@emailjs/browser";
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { SectionHeading } from '../common/SectionHeading';
@@ -21,6 +22,37 @@ export const ContactSection: React.FC = () => {
     if (!formData.name || !formData.email || !formData.message) return;
 
     setIsSubmitting(true);
+    emailjs
+  .send(
+    "service_ji9vmmc",
+    "template_8bgrq0c",
+    {
+      name: formData.name,
+      email: formData.email,
+      subject: formData.subject || "Portfolio Contact",
+      message: formData.message,
+    },
+    "dq6KyjbiNSDTVjE5J"
+  )
+  .then(() => {
+    alert("Message sent successfully!");
+    setFormData({
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+    });
+  })
+  .catch((error) => {
+  console.error("EmailJS Error:", error);
+  alert(JSON.stringify(error));
+;
+  })
+  .finally(() => {
+    setIsSubmitting(false);
+  });
+
+return;
 
     // Simulate EmailJS transmission with real fallbacks & instant confirmation
     setTimeout(() => {
