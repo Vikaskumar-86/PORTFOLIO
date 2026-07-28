@@ -184,7 +184,7 @@ export const ContactSection: React.FC = () => {
                     required
                     value={formData.name}
                     onChange={e => setFormData({ ...formData, name: e.target.value })}
-                    placeholder="John Doe"
+                    placeholder="Enter your name"
                     className="w-full bg-slate-50 dark:bg-slate-800/60 text-slate-900 dark:text-white placeholder-slate-400 px-4 py-3 rounded-2xl border border-slate-200 dark:border-slate-700/70 text-xs focus:outline-none focus:border-blue-500 shadow-sm"
                   />
                 </div>
@@ -198,7 +198,7 @@ export const ContactSection: React.FC = () => {
                     required
                     value={formData.email}
                     onChange={e => setFormData({ ...formData, email: e.target.value })}
-                    placeholder="john@example.com"
+                    placeholder="Vikas@example.com"
                     className="w-full bg-slate-50 dark:bg-slate-800/60 text-slate-900 dark:text-white placeholder-slate-400 px-4 py-3 rounded-2xl border border-slate-200 dark:border-slate-700/70 text-xs focus:outline-none focus:border-blue-500 shadow-sm"
                   />
                 </div>
